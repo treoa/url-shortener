@@ -6,4 +6,20 @@ body {
   font-family: sans-serif;
 }
 
-input.violet-input {}
+input.violet-input {
+  border-bottom: 1px solid #fff!important;
+  box-shadow: 0 1px 0 0 azure!important;
+}
+
+input.violet-input + label {
+  color: azure!important;
+}
+
+input.violet-input:focus + label {
+  color: violet!important;
+}
+
+input.violet-input:focus {
+  border-bottom: 1px solid violet!important;
+  box-shadow: 0 1px 0 0 violet!important;
+}
